@@ -12,7 +12,7 @@ This project is an simple application, integrated with [MongoDB](https://www.mon
 
 - You need create an account on MongoDB and create a database `sistema_noticias` two schemas for use database named `categoria` and `noticias` and edit file index.js with your server.
 
-- Test your connectio to check if workin normaly
+- Test your connection to check if workin normaly
 
 - To test requisitions you can use [Insomnia](https://insomnia.rest/download), [Postman](https://www.postman.com/) or [Thunder Client](https://www.thunderclient.io/) extension for VS Code.
 
