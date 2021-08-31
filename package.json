@@ -1,0 +1,21 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "API do sistema de noticias.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "noticias",
+    "categorias"
+  ],
+  "author": "Jef",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "mysql2": "^2.3.0"
+  }
+}
