@@ -19,7 +19,7 @@ app.get('/news-api/v1/categorias', (req, res) => {
 
   // Busca categorias
   MongoClient.connect(
-    'mongodb+srv://sistema_noticias:sistema_noticias@cluster0.dq7v5.mongodb.net/sistema_noticias?retryWrites=true&w=majority', 
+    'mongodb-server-here', 
     
     function(err, client) {
       if (err) throw err; 
@@ -39,7 +39,7 @@ app.get('/news-api/v1/categorias/:categoriaId/noticias', (req, res) => {
 
   // Busca noticias de uma categoria
   MongoClient.connect(
-    'mongodb+srv://sistema_noticias:sistema_noticias@cluster0.dq7v5.mongodb.net/sistema_noticias?retryWrites=true&w=majority', 
+    'mongodb-server-here', 
     
     function(err, client) {
       if (err) throw err; 
@@ -64,7 +64,7 @@ app.get('/news-api/v1/categorias/:categoriaId/noticias/:noticiaId', (req, res) =
 
   // Busca noticia
   MongoClient.connect(
-    'mongodb+srv://sistema_noticias:sistema_noticias@cluster0.dq7v5.mongodb.net/sistema_noticias?retryWrites=true&w=majority', 
+    'mongodb-server-here', 
     
     function(err, client) {
       if (err) throw err; 
